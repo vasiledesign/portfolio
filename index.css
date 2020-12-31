@@ -1,0 +1,135 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+  }
+  
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 33.33%;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 55px;
+    height: auto;
+
+    /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    height: auto;
+  }
+
+h1{
+    color: black;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    text-align: center;
+    font-size: 85px;
+}
+
+.industries-headline{
+    padding-bottom: 50px;
+}
+
+.port-image{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  width: 550px;
+  padding-bottom: 45px;
+}
+
+.carousel{
+    background: white;
+    background-position: center;
+    background-size: 1800px;
+    background-clip: padding-box;
+}
+
+.brands{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  width: 1200px;
+  padding-bottom: 45px;
+}
+
+.industries{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  width: 837px;
+  padding-bottom: 45px;
+}
+
+body{
+    max-width: 2000px;
+  margin: auto;
+}
+
+.subhead{
+    font-size: 45px;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    color: #1189FF;
+    padding-bottom: 1em;
+    margin-top: -1.5em;
+}
+
+p{
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: #A2AAB3;
+    line-height: 1.4;
+    margin-top: -1em;
+ 
+
+}
+
+h2{
+    font-family: 'Lato', sans-serif;
+    font-size: 40px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #left-align {
+    display: block;
+    margin-left: 0;
+    margin-right: auto;
+  }
+
+  .industries{
+      padding-bottom: 50px;
+  }
+
+  td{
+      padding: 10px;
+      vertical-align: top;
+    
+  }
+
+  table.center {
+    margin-left: auto; 
+    margin-right: auto;
+  }
+
+  .img-test {
+      padding-bottom: 20px;
+      
+  }
+
+  table{
+      padding-bottom: 50px;
+  }
